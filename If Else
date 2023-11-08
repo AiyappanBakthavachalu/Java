@@ -1,0 +1,16 @@
+public class Ifelse{
+    public void greater (){
+       int a = 20;
+       int b = 25;
+        if (a!=b){
+            System.out.println(true);
+        }
+        else{
+            System.out.println(false);
+        }
+    }
+public static void main(String[]args){
+    Ifelse i = new Ifelse();
+    i.greater();
+}
+}

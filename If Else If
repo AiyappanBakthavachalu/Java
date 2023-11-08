@@ -1,0 +1,20 @@
+public class Ifelseif{
+public void statement(){
+String daddy = "Ramesh";
+String son = "Sachitran Aravindh";
+    if (daddy == son){
+        System.out.println("Sachitran Aravindh son of Ramesh");
+    }
+    else if (son==daddy){
+        System.out.println("Ramesh father of Sachitran Aravindh");
+   }
+   else{
+       System.out.println("Thirutuu paya Sachitran Aravindh Ramesh Natarajan");
+          }
+}
+
+public static void main(String[]args){
+    Ifelseif i = new Ifelseif();
+    i.statement();
+}
+}

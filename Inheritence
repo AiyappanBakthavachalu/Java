@@ -1,0 +1,17 @@
+public class Parent{
+    public void empDetails(String name){
+        System.out.println(name);
+    }
+    public void empDetails(String name, int age, char person){
+        System.out.println("My Name is:  "  + name + "\n" + "My Age is:  " + age + "\n"+ person);
+    }
+public static void main(String[]args){
+    Parent p = new Parent();
+    p.empDetails("Aiyappan");
+    p.empDetails("Aiyappan",27,'M');
+    p.empDetails("Aravind");
+    p.empDetails("MAdhan");
+    p.empDetails("Naveen");
+}
+    
+}

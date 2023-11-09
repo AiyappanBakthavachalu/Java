@@ -1,0 +1,27 @@
+public class HdfcBank{
+    public void savings(){
+        System.out.println("10,000");
+    }
+    public void deposit(){
+        System.out.println("5,000");
+    }
+}
+
+
+public class IciciBank extends HdfcBank{
+    public void savings(){
+        super.savings();
+        System.out.println("4,000");
+    }
+    public void deposit(){
+        System.out.println("2,000");
+        super.deposit();
+        this.savings();
+    }
+    
+    public static void main(String[]args){
+    IciciBank i =  new IciciBank();
+    i.savings();
+    i.deposit();
+    }
+}
